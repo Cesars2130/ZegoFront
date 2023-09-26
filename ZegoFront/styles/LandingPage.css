@@ -1,0 +1,13 @@
+:root{
+    --primario: #ede0d4;
+    --secundario: #a68a64;
+    --terceario: #7f5539;
+    --verdeSecundario: #414833;
+    --verdePrimario: #656d4a;
+}
+
+
+body{
+    background-color: var(--primario);
+}
+

@@ -1,10 +1,16 @@
 import React from "react";
+import Header from "../src/organismos/Header";
+import Banner from "./organismos/Banner";
+import Contenido from "./organismos/Contenido"
+import Footer from "./organismos/Footer";
 
 export default function LandigPage() {
+  return (
     <>
-    <div>
-        <h1>Hola</h1>
-    </div>
+      <Header />
+      <Banner />
+      <Contenido/>
+      <Footer/>
     </>
-    
+  );
 }
