@@ -10,7 +10,9 @@ export default function LandigPage() {
       <Header />
       <Banner />
       <Contenido/>
+      <Banner />
       <Footer/>
+
     </>
   );
 }

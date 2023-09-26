@@ -5,7 +5,8 @@ export default function Profile() {
   return (
     <>
       <div className="pImagen">
-            <span>
+            <img src="" alt="" />
+            <span >
                 Perfil
             </span>
       </div>

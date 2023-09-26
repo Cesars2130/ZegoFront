@@ -30,6 +30,7 @@ export default function Header() {
   return (
     <>
       <header className="header">
+      
         <Head />
         <Nav aProps={aProps}/>
         <Profile/>

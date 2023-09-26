@@ -1,11 +1,30 @@
 .head {
-    position: absolute;
-    float: left;
+    display: flex;
+        justify-content: center;
+   
     
 }
 
 .pImagen{
-    position: absolute;
-    float: right;
-    right: 10px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+@media (min-width: 768px) {
+    
+    
+    .pImagen{
+        position: absolute;
+        float: right;
+        right: 10px;
+    }
+}
+
+@media (min-width: 768px) {
+    .head{
+        position: absolute;
+        float: left;
+    }
 }
