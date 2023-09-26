@@ -1,0 +1,11 @@
+.head {
+    position: absolute;
+    float: left;
+    
+}
+
+.pImagen{
+    position: absolute;
+    float: right;
+    right: 10px;
+}

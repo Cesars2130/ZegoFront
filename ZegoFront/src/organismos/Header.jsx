@@ -1,6 +1,8 @@
 import React from "react";
 import Head from "../atomos/Head";
 import Nav from "../moleculas/Nav";
+import Profile from "../atomos/Profile";
+import "../../styles/organismos.css"
 
 export default function Header() {
 
@@ -23,13 +25,14 @@ export default function Header() {
         }
     ]
 
-    
+   
 
   return (
     <>
-      <header>
+      <header className="header">
         <Head />
         <Nav aProps={aProps}/>
+        <Profile/>
       </header>
     </>
   );

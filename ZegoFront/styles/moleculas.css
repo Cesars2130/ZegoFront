@@ -1,0 +1,37 @@
+:root{
+    --primario: #ede0d4;
+    --secundario: #a68a64;
+    --terceario: #7f5539;
+    --verdeSecundario: #414833;
+    --verdePrimario: #656d4a;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 80px;
+    width: 100%;
+    gap: 10rem;
+}
+
+@media (min-width: 768px) {
+    .nav{
+        flex-direction: row;
+    }
+}
+
+.a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    
+}
+
+.a:hover {
+    background-color: #7f5539;
+    padding: 10px;
+    border-radius: 5px;
+}

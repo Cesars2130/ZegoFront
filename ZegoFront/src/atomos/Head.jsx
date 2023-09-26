@@ -1,4 +1,6 @@
 import React from 'react'
+import "../../styles/atomos.css"
+
 export default function Head() {
   return (
     <>

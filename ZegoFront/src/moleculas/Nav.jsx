@@ -1,11 +1,16 @@
-import React from 'react'
+import React from "react";
+import "../../styles/moleculas.css";
 
-export default function Nav({aProps}) {
+export default function Nav({ aProps }) {
   return (
     <>
-        {aProps.map((info)=>(
-            <nav key={info}> <a href={info.href}> {info.nombreInput}</a> </nav>
+      <nav>
+        {aProps.map((info) => (
+          <a className="a" key={info} href={info.href}>
+            {info.nombreInput}
+          </a>
         ))}
+      </nav>
     </>
-  )
+  );
 }
